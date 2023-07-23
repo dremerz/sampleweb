@@ -9,7 +9,8 @@ export default function App() {
     <Routes>
      
         <Route index element={<Home />} />
-        <Route path="/" element={<Test />}/>
+        <Route path="/test" element={<Test />}/>
+      <br></br>  <a to="test"> click </a>
     </Routes>
   </BrowserRouter>
   )

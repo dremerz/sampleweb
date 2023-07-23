@@ -7,10 +7,10 @@ export default function App() {
   return (
     <BrowserRouter>
     <Routes>
-     
+     <Route to="/">
         <Route index element={<Home />} />
         <Route path="/test" element={<Test />}/>
-      
+        </Route>
     </Routes>
   </BrowserRouter>
   )

@@ -10,7 +10,7 @@ export default function App() {
      
         <Route index element={<Home />} />
         <Route path="/test" element={<Test />}/>
-      <br></br>  <a to="test"> click </a>
+      
     </Routes>
   </BrowserRouter>
   )

@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Home() {
   return (
-    <div>Home <br></br>  <a to="test"> click </a></div>
+    <div>down <br></br>  <a to="test"> click </a></div>
 
   )
 }
